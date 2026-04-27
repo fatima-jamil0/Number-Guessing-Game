@@ -1,0 +1,64 @@
+#restart{
+    display: none;
+}
+body{
+    background-image: url(./background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+justify-content: center;
+}
+.container{
+    background-color: plum;
+position: relative;
+top: 210px;
+    text-align: center;
+    width: 450px;
+    height: 310px;
+    border-radius: 30px;
+    border: 6px rgb(133, 73, 159) groove;
+}
+
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    top: 12px;
+}
+#num{
+     position: relative;
+    top: 15px;
+    font-size: 13px;
+    width: 290px;
+padding: 9px 12px;
+    margin-left: 60px;
+    border: transparent;
+    border-radius: 5px;
+} 
+
+#check{
+    position: relative;
+    top:70px ;
+right: 190px;
+border-radius: 8px;
+padding: 11px 15px;
+border: transparent;
+}
+#check:hover{
+background-color: rgb(0, 0, 0);
+color: white;
+border: 1px black solid;
+}
+
+#result{
+    position:relative;
+    top: 70px;
+    font-size: 17px;
+}
